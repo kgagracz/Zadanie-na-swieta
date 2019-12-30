@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Titillium Web';
+}
+
+/* header */
+
+header {
+    background-color: #87509c;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    background-color: #87509c;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav > ul {
+    height: 25%;
+    margin-right: 200px;
+}
+
+nav li {
+    text-transform: uppercase;
+    display: inline;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+nav li:hover {
+    background-color: #643a79;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#header-btn {
+    width: 300px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #eb7d4b;
+    display: block;
+    padding: 10px 30px;
+    color: white;
+    border-color: #e67440;
+    border-width: 0px 0px 4px 0px;
+    border-radius: 3px;
+}
+
+/* our team section */
+
+#our-team {
+    background-color: #e7f1f8;
+}
+
+.heading-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+hr {
+    width: 50px;
+    height: 1px;
+}
+
+.heading-container > p {
+    width: 100%;
+    text-align: center;
+}
+
+/* profiles */
+
+.profile-container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 400px;
+    width: 60%;
+    margin: auto;
+}
+
+.profile {
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #696969;
+    margin-top: 50px;
+}
+
+.profile-img + p {
+    width: 100%;
+    font-weight: bold;
+}
+
+.profile > p {
+    text-align: center;
+}
+
+.job {
+    color: lightskyblue;
+    margin: 0;
+}
+
+.icon-container {
+    /* background-color: gray; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    height: 20px;
+}
+
+/* skills section */
+
+hr + p {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.skill-container {
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-between;
+}
+
+#skill1, #skill2, #skill3, #skill4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px gray;
+}
+
+#skill1 {
+    border: solid 8px #34b7eb;
+}
+
+#skill2 {
+    border: solid 8px #dc4481;
+}
+
+#skill3 {
+    border: solid 8px #17c5aa;
+}
+
+#skill4 {
+    border: solid 8px #ec7d4f;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.competition {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* about us section */
+
+#about-us {
+    background-color: #d74680;
+}
+
+#chanel-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    background-color: gray;
+}
+
+.chanel {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle-container {
+    height: 100%;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.job-heading {
+    text-transform: uppercase;
+}
+
+.chanel p {
+    width: 70%;
+    margin: 10px 10px;
+}
+
+
