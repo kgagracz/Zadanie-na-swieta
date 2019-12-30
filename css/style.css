@@ -255,4 +255,29 @@ h3 {
     margin: 10px 10px;
 }
 
+/* form section */
 
+#in-touch {
+    background-color: #3c5499;
+}
+
+#contact {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.texts {
+    width: 45%;
+}
+
+textarea {
+    width: 100%;
+    margin: 25px 0px;
+}
+
+input[type="submit"] {
+    margin: auto;
+}
