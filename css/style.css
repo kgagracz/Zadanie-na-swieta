@@ -225,7 +225,6 @@ h3 {
     width: 70%;
     height: 500px;
     margin: auto;
-    background-color: gray;
 }
 
 .chanel {
@@ -246,8 +245,18 @@ h3 {
     background-color: #fff;
 }
 
+.p-container {
+    width: 60%;
+}
+
+.paragraph {
+    color: white;
+}
+
 .job-heading {
     text-transform: uppercase;
+    font-weight: bold;
+    color: white;
 }
 
 .chanel p {
